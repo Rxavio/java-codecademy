@@ -40,3 +40,15 @@ public class Tree{
     }
 
 }
+
+
+public class MyProfile {
+	public static void main(String[] args) {  
+    String name = "Xavier"; 
+    int age = 77;
+    double desiredSalary = 7000000000.99;
+    char gender = 'm';
+    boolean lookingForJob = true;
+
+	}
+}
