@@ -754,3 +754,28 @@ desertIslandPlaylist.set(indexA, "heat");
   }
   
 }
+
+//LEARN JAVA: ARRAYLISTS Review
+
+import java.util.ArrayList;
+
+class List {
+  
+  public static void main(String[] args) {ArrayList<String> toDoTest = new ArrayList<String>();
+
+  toDoTest.add("test1");
+  toDoTest.add("test2");
+  toDoTest.add("test3");
+ System.out.println(toDoTest.size());
+ System.out.println(toDoTest.get(2));
+
+ toDoTest.set(0, "Lucy1");
+System.out.println(toDoTest.get(0));
+ toDoTest.remove(2);
+ System.out.println(toDoTest);
+System.out.println(toDoTest.indexOf("Lucy1"));
+
+    
+  }
+  
+}
