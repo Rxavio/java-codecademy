@@ -709,3 +709,48 @@ class ToDos {
   }
   
 }
+
+//Desert Island Playlist
+
+import java.util.ArrayList;
+
+class Playlist {
+  
+  public static void main(String[] args) {
+    // creating playlist
+ArrayList<String> desertIslandPlaylist = new ArrayList<String>();
+    // adding songs to playlist
+desertIslandPlaylist.add("my universe");//removed
+desertIslandPlaylist.add("no guidance");
+desertIslandPlaylist.add("look at me now");
+desertIslandPlaylist.add("loyal");
+desertIslandPlaylist.add("dont check on me");//removed
+desertIslandPlaylist.add("heat");
+desertIslandPlaylist.add("go crazy");
+  // printing playlist
+   // System.out.println(desertIslandPlaylist);
+    
+    // checking playlist size
+     //System.out.println(desertIslandPlaylist.size());
+
+       // removing songs
+desertIslandPlaylist.remove("my universe");
+ desertIslandPlaylist.remove("dont check on me");
+
+ System.out.println(desertIslandPlaylist.size());
+ System.out.println(desertIslandPlaylist);
+
+    // swapping songs
+int indexA = desertIslandPlaylist.indexOf("no guidance");
+int indexB = desertIslandPlaylist.indexOf("heat");
+
+String tempA = "no guidance";
+desertIslandPlaylist.set(indexA, "heat");
+
+// System.out.println(desertIslandPlaylist);
+    desertIslandPlaylist.set(indexB, tempA);
+    System.out.println(desertIslandPlaylist);
+  
+  }
+  
+}
