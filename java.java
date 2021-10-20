@@ -935,3 +935,54 @@ public class SavingsAccount {
     System.out.println(savings);
   }       
 }
+
+
+/*
+A Basic Calculator
+In this project, you will use classes, methods, and objects to create a simple arithmetic calculator. The calculator will be able to:
+
+Add two integers
+Subtract two integers
+Multiply two integers
+Divide two integers
+Apply the modulo operator on two integers
+*/
+public class Calculator{
+// constructor method
+public Calculator() {
+  }
+//add
+public int add(int a, int b){
+int sum=a+b;
+return sum;
+  } 
+  //sub 
+public int subtract(int a, int b){
+int difference=a-b;
+return difference;
+  }
+  //mult
+ public int multiply(int a, int b){
+int product=a*b;
+return product ;
+  }
+  //div
+public int divide(int a, int b){
+int quotient=a/b;
+return quotient ;
+  }
+ //div
+public int modulo(int a, int b){
+int result=a%b;
+return result ;
+  }
+ public static void main(String[] args){
+ Calculator  myCalculator = new Calculator ();
+ System.out.println(myCalculator.add(5, 7));
+ System.out.println(myCalculator.subtract(45, 11));
+  System.out.println(myCalculator.multiply (5, 7));
+   System.out.println(myCalculator.divide (35, 7));
+System.out.println(myCalculator.modulo (5, 2));
+
+} 
+}
