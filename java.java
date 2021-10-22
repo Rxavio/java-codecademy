@@ -1258,7 +1258,7 @@ System.out.println(firstName.concat(" "+ lastName));
   
 }
 
-//STRING METHODS equals()
+// STRING METHODS equals()
 public class Password {
   
   public static void main(String[] args) {
