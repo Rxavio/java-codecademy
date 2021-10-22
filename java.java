@@ -1178,3 +1178,29 @@ class Lunch {
     System.out.println(lunchContainer);
   }
 }
+
+//LEARN JAVA: LOOPS Review
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+class Playground {
+public static void main(String[] args) {
+for (int i = 0; i < 28; i++) {
+  System.out.println("Congrats on finishing Java loops! " +i);
+	  }
+
+// int i = 0;
+// while (i < 28) {
+// System.out.println("Congrats on finishing Java loops! " +i);
+//   i++; 
+// }
+
+// int[] i = { 125, 132, 95, 116, 110 };
+// for (int x : i) {
+// System.out.println("Congrats on finishing Java loops! " +x); 
+// }
+
+
+  }
+}
