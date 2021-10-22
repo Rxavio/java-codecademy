@@ -1331,3 +1331,53 @@ public class Review {
   }
   
 }
+
+
+//JAVA II DNA Sequencing
+
+public class DNA {
+  public static void main(String[] args) {
+ /*
+ DNA Sequencing
+The genome of an organism stores all the genetic information necessary to build and maintain that organism. It is an organism’s complete set of DNA.
+ */
+ String dna1 = "ATGCGATACGCTTGA";
+String dna2 = "ATGCGATACGTGA";
+String dna3 = "ATTAATATGTACTGA";
+ String dna =dna1;
+ String dnaa =dna2;
+ String dnaaa =dna3;
+
+ // Find the length:
+int length1 = dna.length();
+int length2 = dnaa.length();
+int length3 = dnaaa.length();
+ System.out.println("Length 1: " + length1);
+ System.out.println("Length 2: " + length2);
+ System.out.println("Length 3: " + length3);
+
+
+int totalLenth=length1+length2+length3;
+ System.out.println("Total Length: " + totalLenth);
+
+ // Find start codon: 
+int start = dna.indexOf("ATG");
+System.out.println("agt: " + start);
+
+
+int end = dna.indexOf("TGA");
+System.out.println("tga: " + end);
+
+ if (start != -1 && end != -1 && (end - start) % 3 == 0) {
+
+String protein = dna.substring(start, end);
+System.out.println("There is a protein! " + protein);
+    } 
+            
+else {
+ System.out.println("No protein found!");
+  }
+ 
+  }
+ 
+}
