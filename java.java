@@ -1077,3 +1077,30 @@ for (int i = 0; i < 5; i++) {
   System.out.println(i);
  
 }
+
+
+//LEARN JAVA: LOOPS Iterating Over Arrays and ArrayLists
+
+import java.util.ArrayList;
+
+class CalculateTotal {
+  
+  public static void main(String[] args) {
+    
+ArrayList<Double> expenses = new ArrayList<Double>();
+    expenses.add(74.46);
+    expenses.add(63.99);
+    expenses.add(10.57);
+    expenses.add(81.37);
+    //System.out.println(expenses.size());
+    
+    double total = 0;
+    
+ // Iterate over expenses
+ for (int i = 0; i < expenses.size(); i++) {
+   total += expenses.get(i);
+}
+ System.out.println(total);  
+  }
+  
+}
