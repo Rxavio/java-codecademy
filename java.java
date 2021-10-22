@@ -1104,3 +1104,19 @@ ArrayList<Double> expenses = new ArrayList<Double>();
   }
   
 }
+
+//LEARN JAVA: LOOPS break and continue
+
+class Numbers {
+  public static void main(String[] args) {
+    for (int i = 0; i < 100; i++) {
+      // Add your code below
+      // System.out.println(i);
+      if (i%5!=0) {
+    continue;
+  }
+     System.out.println(i);
+  
+    }
+  }
+}
