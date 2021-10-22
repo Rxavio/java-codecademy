@@ -1047,7 +1047,7 @@ class LuckyFive {
  }
 }
 
-
+//Incrementing While Loops
 class Coffee {
   
   public static void main(String[] args) {
@@ -1067,4 +1067,13 @@ class Coffee {
     
   }
   
+}
+
+//for 
+
+for (int i = 0; i < 5; i++) {
+ 
+  // code that will run
+  System.out.println(i);
+ 
 }
