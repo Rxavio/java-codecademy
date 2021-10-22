@@ -1271,3 +1271,9 @@ System.out.println(password.equals("Tr0ub4dor&3"));
   }
   
 }
+
+
+//STRING METHODS indexOf()
+String letters = "ABCDEFGHIJKLMN";
+ 
+System.out.println(letters.indexOf("C"));
