@@ -1308,3 +1308,26 @@ String upper = input.toUpperCase();
  
 String lower = input.toLowerCase();
 // stores "cricket!"
+
+//STRING METHODS Review
+public class Review {
+  
+  public static void main(String[] args) {
+
+   String text = "Hello World!";
+   String txt1 = "Hello";
+   String txt2 = "folks";
+    // Examples:
+    System.out.println(txt1.charAt(1));
+    System.out.println(txt1.indexOf("e"));
+    System.out.println(txt1.equals(txt2));
+    System.out.println(text.length());
+    System.out.println(text.substring(4));
+    System.out.println(text.toUpperCase()); 
+    System.out.println(text.toLowerCase());
+   System.out.println(txt1.concat(" "+txt2));
+   
+   
+  }
+  
+}
