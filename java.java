@@ -1298,3 +1298,13 @@ public class Poetry {
   }
   
 }
+
+//STRING METHODS toUpperCase() / toLowerCase()
+
+String input = "Cricket!";
+ 
+String upper = input.toUpperCase();
+// stores "CRICKET!"
+ 
+String lower = input.toLowerCase();
+// stores "cricket!"
