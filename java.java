@@ -1277,3 +1277,9 @@ System.out.println(password.equals("Tr0ub4dor&3"));
 String letters = "ABCDEFGHIJKLMN";
  
 System.out.println(letters.indexOf("C"));
+
+
+//STRING METHODS charAt()
+String str = "qwer";
+ 
+System.out.println(str.charAt(2));
