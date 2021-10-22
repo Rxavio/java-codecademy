@@ -1239,3 +1239,21 @@ String tweet = "Liz Lemon, ninjas are kind of cool... I just dont know any perso
   }
   
 }
+
+
+//STRING METHODS concat()
+public class CombineNames {
+  
+	public static void main(String[] args) {
+    
+    // Add your first names:
+    String firstName = "ali";  
+    String lastName = "kim";
+
+    // What's the full name?
+System.out.println(firstName.concat(" "+ lastName));
+    
+    
+  }
+  
+}
